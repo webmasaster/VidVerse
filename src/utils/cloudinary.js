@@ -23,5 +23,18 @@ const uploadOnCloudinary = async (localFilePath) => {
   }
 }
 
+// const deleteFromCloudinary = async (publicId) => {
+//   try {
+//     if (!publicId) throw new Error("publicId is required to delete an image");
+
+//     const result = await cloudinary.uploader.destroy(publicId);
+//     return result; // { result: 'ok' } or { result: 'not found' }
+//   } catch (error) {
+//     console.error("Error deleting from Cloudinary:", error);
+//     return null;
+//   }
+// };
+
 
 export { uploadOnCloudinary };
+// export {deleteFromCloudinary};
