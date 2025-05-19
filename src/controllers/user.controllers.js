@@ -391,7 +391,7 @@ const getUserChannelProfile=asyncHandler(async (req, res) => {
     }
   ])
 
-  if(!channel){
+  if(!channel?.length){
     throw new ApiError(404,"Channel not found")
   }
 
