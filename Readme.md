@@ -25,19 +25,23 @@ You have MongoDB installed or have a MongoDB Atlas account.
 Follow these steps to get the project set up on your local machine:
 
 Clone the repository: First, you will need to clone the repository to your local machine. You can do this with the following command:
-
+```bash
 git clone https://github.com/webmasaster/VidVerse.git
+```
 Navigate to the project directory: Change your current directory to the project's directory:
-
+```bash
 cd VidVerse
+```
 Install the dependencies: Now, you can install the necessary dependencies for the project:
-
+```bash
 npm install
 npm install -g nodemon
 npm install dotenv cloudinary mongoose mongoose-aggregate-paginate-v2 bcrypt jsonwebtoken express cors cookie-parser cloudinary multer fluent-ffmpeg @ffmpeg-installer/ffmpeg @ffprobe-installer/ffprobe
-Set up environment variables: Copy the .env.example file and rename it to .env. Then, fill in the necessary environment variables.
+```
+Set up environment variables: Copy the ```.env.example``` file and rename it to ```.env``` Then, fill in the necessary environment variables.
 
 Start the server: Finally, you can start the server:
-
+```bash
 npm run dev
-Now, you should be able to access the application at http://localhost:8000 (or whatever port you specified).
+```
+Now, you should be able to access the application at ```http://localhost:8000``` (or whatever port you specified).
