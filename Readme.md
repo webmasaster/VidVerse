@@ -13,3 +13,31 @@ MongoDB and Mongoose: Efficiently managing and interacting with the database.
 JWT (JSON Web Tokens): Ensuring secure and authenticated communication.
 Bcrypt: Safeguarding user passwords with industry-standard hashing.
 Access Tokens and Refresh Tokens: Enhancing security and user experience.
+# Prerequisites
+Before you begin, ensure you have met the following requirements:
+
+You have installed the latest version of Node.js and npm.
+You have a Windows/Linux/Mac machine.
+You have read guide to Express.js.
+You have a basic understanding of JavaScript and MongoDB.
+You have MongoDB installed or have a MongoDB Atlas account.
+# Installation
+Follow these steps to get the project set up on your local machine:
+
+Clone the repository: First, you will need to clone the repository to your local machine. You can do this with the following command:
+
+git clone https://github.com/webmasaster/VidVerse.git
+Navigate to the project directory: Change your current directory to the project's directory:
+
+cd VidVerse
+Install the dependencies: Now, you can install the necessary dependencies for the project:
+
+npm install
+npm install -g nodemon
+npm install dotenv cloudinary mongoose mongoose-aggregate-paginate-v2 bcrypt jsonwebtoken express cors cookie-parser cloudinary multer fluent-ffmpeg @ffmpeg-installer/ffmpeg @ffprobe-installer/ffprobe
+Set up environment variables: Copy the .env.example file and rename it to .env. Then, fill in the necessary environment variables.
+
+Start the server: Finally, you can start the server:
+
+npm run dev
+Now, you should be able to access the application at http://localhost:8000 (or whatever port you specified).
