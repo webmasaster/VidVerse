@@ -11,9 +11,10 @@
   "license": "ISC",
   "author": "Nitin kumar",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+    "start": "node --experimental-json-modules src/index.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.10",
